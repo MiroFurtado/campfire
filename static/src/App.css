@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.inferno-logo {
+  color: rgb(184, 129, 47);
+  border-radius: 2rem;
+}
+.inferno-logo h1 {
+  font-size: 3em;
+}
+
+.info-text {
+  font-size: 0.88em;
+}
+
+.info-text b {
+  font-size: 1.3em;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-bottom {
+  margin-top: 25px;
+}
+
+.App-link {
+  color: #fff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+div.dropzone {
+    /* positions to point 0,0 - required for z-index */
+    position: fixed; top: 0; left: 0; 
+    /* above all elements, even if z-index is used elsewhere
+       it can be lowered as needed, but this value surpasses
+       all elements when used on YouTube for example. */
+    z-index: 9999999999;               
+    /* takes up 100% of page */
+    width: 100%; height: 100%;         
+    /* dim the page with 50% black background when visible */
+    background-color: rgba(0,0,0,0.5);
+    /* a nice fade effect, visibility toggles after 175ms, opacity will animate for 175ms. note display:none cannot be animated.  */
+    transition: visibility 175ms, opacity 175ms;
+}
