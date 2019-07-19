@@ -67,8 +67,8 @@ class App extends Component {
       <div id="zone" className="App">
         <header className="App-header">
         <div class="inferno-logo">
-        <h1><i class="fas fa-fire-alt fa-2x"/> campfire</h1>
-        <p class="info-text">Quickly deploy and query a <b>Torchscript</b> model<br/></p>
+        <h1><i class="fas test fa-fire-alt fa-2x"/> campfire.</h1>
+        <p class="info-text">Quickly deploy and query a Torchscript model<br/></p>
         <b class="droptext">
         Drop your model <code>pt</code> file here.</b>
         <form style="visibility: hidden; opacity:0" class="file-form">
@@ -77,7 +77,7 @@ class App extends Component {
           <label class="button" for="fileElem">Select some files</label>
         </form>
         <div style="visibility:hidden; opacity:0" class="dropzone"><h2>Run this model</h2></div>
-        <sup className="App-bottom" style="font-size: 0.5em"><a class="inferno-logo" style="text-decoration: none" href="https://mirofurtado.com">created by Miro Furtado</a>
+        <sup className="App-bottom" style="font-size: 0.5em"><a class="inferno-logo" style="text-decoration: none" href="https://mirofurtado.com">created by miro furtado</a>
  </sup>
         </div>
         </header>

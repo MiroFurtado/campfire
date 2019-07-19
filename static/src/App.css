@@ -8,9 +8,42 @@
 }
 
 .inferno-logo {
-  color: rgb(184, 129, 47);
+  color: rgb(228, 159, 56);
   border-radius: 2rem;
 }
+
+.water {
+  background: linear-gradient(to right, #30CFD0 0%, #675108 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 20vw;
+		family: $font;
+	};
+}
+
+.test {
+  background: linear-gradient(to right, #30CFD0 0%, #bb12ad 100%);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(228, 159, 56);
+	font: {
+		size: 20vw;
+		family: $font;
+	};
+}
+
+.fire {
+  background: linear-gradient(to right, #c41a1a 0%, rgb(184, 129, 47) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 20vw;
+		family: $font;
+	};
+}
+
 .inferno-logo h1 {
   font-size: 3em;
 }
