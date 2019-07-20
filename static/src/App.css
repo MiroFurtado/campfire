@@ -10,6 +10,7 @@
 .inferno-logo {
   color: rgb(228, 159, 56);
   border-radius: 2rem;
+
 }
 
 .water {
@@ -22,12 +23,16 @@
 	};
 }
 
+.test-text {
+  font-family: 'Playfair Display', serif;
+}
+
 .test {
   background: linear-gradient(to right, #30CFD0 0%, #bb12ad 100%);
 	-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: rgb(228, 159, 56);
+  /* -webkit-text-stroke-width: 3px; */
+  /* -webkit-text-stroke-color: rgb(228, 159, 56); */
 	font: {
 		size: 20vw;
 		family: $font;

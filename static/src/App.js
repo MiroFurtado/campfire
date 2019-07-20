@@ -67,7 +67,7 @@ class App extends Component {
       <div id="zone" className="App">
         <header className="App-header">
         <div class="inferno-logo">
-        <h1><i class="fas test fa-fire-alt fa-2x"/> campfire.</h1>
+        <h1 class="test-text test"><i class="fas test fa-fire-alt fa-2x"/> campfire.</h1>
         <p class="info-text">Quickly deploy and query a Torchscript model<br/></p>
         <b class="droptext">
         Drop your model <code>pt</code> file here.</b>
